@@ -1,7 +1,10 @@
 # Forge Dashboard Demo
 
-A sanitized static snapshot of the Forge strategy-research dashboard.
+Sanitized static snapshot of a genuine SPY vectorbt backtest from the Forge research workflow.
 
-- Public demo only; no database, credentials, source checkout, or control surface.
-- Snapshot content does not update live.
-- The live Forge application remains private.
+- Public dashboard: https://block3strategy.github.io/forge-dashboard-demo/
+- Strategy detail: https://block3strategy.github.io/forge-dashboard-demo/card/DEMO-TREND/
+- Snapshot metrics: 49 trades, 44.9% win rate, 2.95 profit factor, 6.8% max drawdown, +48.53 Net P&L
+- The detail page includes all 49 persisted trade-ledger rows.
+
+This repository contains rendered HTML/CSS only. It does not contain the Forge source, SQLite database, credentials, private paths, or control endpoints. This is a static snapshot and does not update automatically.
